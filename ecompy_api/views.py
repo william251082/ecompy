@@ -1,8 +1,8 @@
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 
-from ecompyapp.ecompystart.models import Product
-from ecompyapp.ecompystart.serializers import UserSerializer, GroupSerializer, ProductSerializer
+from ecompy_api.serializers import ProductSerializer, UserSerializer, GroupSerializer
+from ecompy_api.models import Product
 
 
 class UserViewSet(viewsets.ModelViewSet):

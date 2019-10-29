@@ -7,7 +7,7 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('ecompystart', '0001_initial'),
+        ('ecompy_api', '0001_initial'),
     ]
 
     operations = [
@@ -21,6 +21,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='product',
             name='user',
-            field=models.OneToOneField(null=True, on_delete=django.db.models.deletion.CASCADE, to='ecompystart.User'),
+            field=models.OneToOneField(null=True, on_delete=django.db.models.deletion.CASCADE, to='ecompy_api.User'),
         ),
     ]

@@ -1,6 +1,6 @@
 ./.idea/workspace.xml
-ecompyapp/__pycache__/models.cpython-36.pyc
+ecompy_api/__pycache__/models.cpython-36.pyc
 .idea/*
 /env
 /venv
-db.sqlite3
+./db.sqlite3

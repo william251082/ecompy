@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class EcompystartConfig(AppConfig):
-    name = 'ecompystart'
+    name = 'ecompy_api'
