@@ -4,3 +4,8 @@ ecompy_api/__pycache__/models.cpython-36.pyc
 /env
 /venv
 ./db.sqlite3
+./ecompy/.idea/workspace.xml
+ecompy/ecompy_api/__pycache__/models.cpython-36.pyc
+ecompy/.idea/*
+ecompy/env
+ecompy/venv
