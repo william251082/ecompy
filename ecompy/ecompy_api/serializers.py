@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User, Group
 from rest_framework import serializers
 
-from ecompy_api.models import Product, Comment, User
+from ecompy.ecompy_api.models import Product, Comment, User
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
